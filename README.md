@@ -7,6 +7,8 @@ ByteTrack-Eigen is a C++ implementation of the [ByteTrack](https://arxiv.org/abs
 
 
 
+
+
 ## Features
 
 - Object tracking using Kalman Filters and Hungarian algorithm.
@@ -45,9 +47,12 @@ ByteTrack-Eigen is a C++ implementation of the [ByteTrack](https://arxiv.org/abs
 3. Build the project using CMake:
    ```bash
    mkdir build && cd build
-   cmake ..
-   make
    ```
+   ```bash
+   cmake ..
+   ```
+
+
 
 ## Usage
 
@@ -73,5 +78,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgments
 
 Special thanks to the Eigen library [team](https://gitlab.com/libeigen/eigen/-/project_members) and [authors](https://arxiv.org/abs/2110.06864) of the ByteTrack algorithm.
-
 
