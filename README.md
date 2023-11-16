@@ -69,7 +69,7 @@ Here is an example of how to use ByteTrack-Eigen in your project:
 #include "BYTETracker.h"
 
 int main() {
-    // Your code to initialize and use the tracker
+    BYTETracker tracker(track_thresh, track_buffer, match_thresh, frame_rate);
 }
 ```
 
