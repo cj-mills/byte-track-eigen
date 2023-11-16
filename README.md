@@ -9,7 +9,7 @@ ByteTrack-Eigen is a C++ implementation of the [ByteTrack](https://arxiv.org/abs
 
 ## Demo Video
 
-https://github.com/cj-mills/byte-track-eigen/assets/9126128/8bcc137a-30e9-41a9-8e46-8ac0fba347bc
+https://github.com/cj-mills/byte-track-eigen/assets/9126128/1f3b0fa4-676c-4050-83e4-c8c7d118be56
 
 > Source Video by RDNE Stock project from Pexels: ([link](https://www.pexels.com/video/a-woman-giving-a-thumbs-up-10373924/))
 
