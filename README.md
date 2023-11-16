@@ -69,6 +69,10 @@ Here is an example of how to use ByteTrack-Eigen in your project:
 #include "BYTETracker.h"
 
 int main() {
+    float track_thresh = 0.23f;
+    int track_buffer = 30;
+    float match_thresh = 0.8;
+    int frame_rate = 30;
     BYTETracker tracker(track_thresh, track_buffer, match_thresh, frame_rate);
 }
 ```
