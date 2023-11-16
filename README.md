@@ -5,11 +5,14 @@
 
 ByteTrack-Eigen is a C++ implementation of the [ByteTrack](https://arxiv.org/abs/2110.06864) object tracking method, leveraging the Eigen library for high-performance matrix and vector operations. This library is designed for tracking objects in video frames using Kalman Filters and the Hungarian algorithm.
 
+
+
 ## Demo Video
 
-https://github.com/cj-mills/byte-track-eigen/assets/9126128/8bcc137a-30e9-41a9-8e46-8ac0fba347bc
+![](https://github.com/cj-mills/byte-track-eigen/assets/9126128/8bcc137a-30e9-41a9-8e46-8ac0fba347bc)
 
 > Source Video by RDNE Stock project from Pexels: ([link](https://www.pexels.com/video/a-woman-giving-a-thumbs-up-10373924/))
+
 
 
 ## Features
