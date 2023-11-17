@@ -79,6 +79,10 @@ int main() {
 
 
 
+## Demo Projects
+
+* [yolox-bytetrack-onnx-demo](https://github.com/cj-mills/yolox-bytetrack-onnx-demo): A Visual Studio project demonstrating how to perform object tracking  across video frames with YOLOX, ONNX Runtime, and the ByteTrack-Eigen  library.
+
 
 
 ## License
