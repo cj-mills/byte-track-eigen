@@ -81,7 +81,8 @@ int main() {
 
 ## Demo Projects
 
-* [yolox-bytetrack-onnx-demo](https://github.com/cj-mills/yolox-bytetrack-onnx-demo): A Visual Studio project demonstrating how to perform object tracking  across video frames with YOLOX, ONNX Runtime, and the ByteTrack-Eigen  library.
+* [yolox-bytetrack-onnx-demo](https://github.com/cj-mills/yolox-bytetrack-onnx-demo): A Visual Studio project demonstrating how to perform object tracking  across video frames with YOLOX, ONNX Runtime, and the ByteTrack-Eigen library.
+* [unity-bytetrack-plugin](https://github.com/cj-mills/unity-bytetrack-plugin): A simple native plugin for the Unity game engine, built in Visual  Studio, that leverages the ByteTrack-Eigen library to perform real-time object tracking.
 
 
 
