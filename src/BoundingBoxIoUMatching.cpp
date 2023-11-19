@@ -95,14 +95,13 @@ Eigen::MatrixXd iou_distance(
  */
 std::vector<int> match_detections_with_tracks(
     const Eigen::MatrixXd& tlbr_boxes,
-    const std::vector<int>& track_ids_input,
     const std::vector<KalmanBBoxTrack>& tracks
 ) {
     size_t m = tracks.size();
     size_t n = tlbr_boxes.rows();
 
     // Clone the input track_ids to operate on
-    std::vector<int> track_ids = track_ids_input;
+    std::vector<int> track_ids(n, -1);
 
     // Extract bounding boxes from tracks
     Eigen::MatrixXd track_boxes(m, 4);
