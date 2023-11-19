@@ -65,7 +65,7 @@ void BaseTrack::mark_removed() {
 }
 
 // resetCount: Resets the static track ID counter to 0.
-void BaseTrack::resetCount() {
+void BaseTrack::reset_count() {
     _count = 0;
 }
 
