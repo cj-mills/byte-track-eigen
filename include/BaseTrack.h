@@ -66,7 +66,7 @@ public:
     void mark_removed();
 
     // Resets the static track ID counter. Useful for unit testing or reinitializing the tracking system.
-    static void resetCount();
+    static void reset_count();
 
     // Getter for is_activated.
     bool get_is_activated() const;
