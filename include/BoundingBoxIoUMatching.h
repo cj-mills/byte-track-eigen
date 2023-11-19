@@ -40,7 +40,6 @@ Eigen::MatrixXd iou_distance(
  * based on the highest IoU value. It updates the track IDs accordingly.
  *
  * @param tlbr_boxes Matrix of bounding boxes for detections (N, 4).
- * @param track_ids_input Vector of existing track IDs.
  * @param tracks Vector of KalmanBBoxTrack representing the current tracks.
  * @return Vector of updated track IDs after matching.
  */
