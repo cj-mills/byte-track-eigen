@@ -31,7 +31,7 @@ BYTETracker::BYTETracker(float track_thresh, int track_buffer, float match_thres
 	removed_tracks.clear();
 
 	// Reset the BaseTrack counter to ensure track IDs are unique per instance
-	BaseTrack::resetCount();
+	BaseTrack::reset_count();
 }
 
 /**
