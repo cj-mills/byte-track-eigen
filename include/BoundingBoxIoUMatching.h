@@ -46,6 +46,5 @@ Eigen::MatrixXd iou_distance(
  */
 BYTE_TRACK_EIGEN_API std::vector<int> match_detections_with_tracks(
     const Eigen::MatrixXd& tlbr_boxes,
-    const std::vector<int>& track_ids_input,
     const std::vector<KalmanBBoxTrack>& tracks
 );
