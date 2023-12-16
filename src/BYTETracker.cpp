@@ -347,6 +347,9 @@ void BYTETracker::handle_lost_and_removed_tracks(
 	this->lost_tracks = sub_tracks(this->lost_tracks, this->tracked_tracks);
 	this->lost_tracks.insert(this->lost_tracks.end(), lost_tracks.begin(), lost_tracks.end());
 	this->lost_tracks = sub_tracks(this->lost_tracks, this->removed_tracks);
+
+	// Clean up removed tracks
+	this->removed_tracks.clear();
 }
 
 /**
