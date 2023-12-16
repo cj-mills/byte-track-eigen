@@ -5,6 +5,7 @@
 #include "KalmanFilter.h"
 #include <vector>
 #include <Eigen/Dense>
+#include <memory>
 
 /**
  * @brief The KalmanBBoxTrack class extends the BaseTrack class and incorporates a Kalman filter for object tracking.
