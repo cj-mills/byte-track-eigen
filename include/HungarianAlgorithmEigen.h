@@ -20,6 +20,7 @@
 
 #include <iostream>
 #include <Eigen/Dense>
+#include <cfloat>
 
 // The HungarianAlgorithmEigen class encapsulates the Hungarian Algorithm
 // for solving the assignment problem, which finds the minimum cost matching
