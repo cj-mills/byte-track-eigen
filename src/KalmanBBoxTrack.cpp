@@ -215,7 +215,7 @@ Eigen::Vector4d KalmanBBoxTrack::tlwh() const {
         return _tlwh;
     }
 
-    Eigen::Vector4d ret = mean;
+    Eigen::Vector4d ret = mean.head(4);
     ret[2] *= ret[3];
     ret[0] -= ret[2] / 2.0;
     ret[1] -= ret[3] / 2.0;
